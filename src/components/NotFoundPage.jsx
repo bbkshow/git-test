@@ -4,18 +4,6 @@ import NotFound from "assets/NotFound.png";
 import { StyledButton, StyledTypography } from "components/reusable";
 
 export const NotFoundPage = () => {
-  const { palette, typography } = useTheme();
-  const navigate = useNavigate();
-  const goBack = () => navigate(-1);
-
-  const styles = {
-    stack: {
-      paddingTop: 30,
-    },
-    text: {
-      textAlign: "center",
-    },
-  };
   return (
     <Container maxWidth="lg" sx={styles.stack} disableGutters>
       <Container maxWidth="sm" disableGutters>
