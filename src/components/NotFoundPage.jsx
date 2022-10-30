@@ -3,7 +3,7 @@ import { Box, Container, Stack, useTheme } from "@mui/material";
 import NotFound from "assets/NotFound.png";
 import { StyledButton, StyledTypography } from "components/reusable";
 
-export const  = () => {
+export const NotFoundPage = () => {
   return (
     <Container maxWidth="lg" sx={styles.stack} disableGutters>
       <Container maxWidth="sm" disableGutters>
